@@ -1,6 +1,7 @@
 package net.abe.abes_test_mod;
 
 import com.mojang.logging.LogUtils;
+import net.abe.abes_test_mod.block.ModBlocks;
 import net.abe.abes_test_mod.item.ModCreativeModTabs;
 import net.abe.abes_test_mod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -34,6 +35,7 @@ public class AbesTestMod
 
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -1,6 +1,7 @@
 package net.abe.abes_test_mod.item;
 
 import net.abe.abes_test_mod.AbesTestMod;
+import net.abe.abes_test_mod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,9 @@ public class ModCreativeModTabs {
                         // Where you add items to the custom tab
                         pOutput.accept(ModItems.SAPPHIRE.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
+
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
                     })
                     .build());
 
