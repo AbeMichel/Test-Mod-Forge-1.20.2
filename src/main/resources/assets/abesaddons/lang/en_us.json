@@ -1,0 +1,10 @@
+{
+  "item.abesaddons.sapphire": "Sapphire",
+  "item.abesaddons.raw_sapphire": "Raw Sapphire",
+
+  "block.abesaddons.sapphire_block": "Block of Sapphire",
+  "block.abesaddons.raw_sapphire_block": "Block of Raw Sapphire",
+  "block.abesaddons.sapphire_ore": "Sapphire Ore",
+
+  "creativetab.test_tab": "Test Tab"
+}

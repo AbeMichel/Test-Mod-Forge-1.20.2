@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "abesaddons:sapphire_block"
+    }
+  ],
+  "result": {
+    "item": "abesaddons:sapphire",
+    "count": 9
+  }
+}
